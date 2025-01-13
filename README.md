@@ -21,133 +21,13 @@ Nota:En caso que cliente tenga ambos tipos de descuento, este algoritmo permite 
 6. **Calcular el costo final del producto.** Se suman todos los costos previamente mencionados.
 7. **Desglosar y mostrar los resultados.** Se desglosa la boleta para el usuario con información de la venta.
 
-### Ejemplo de Entrada y Salida ( desde la linea 26 a la 150, es el mismo texto de ejemplo salida
+### Ejemplo de Entrada y Salida
 
-EJEMPLO CON ENVIO LOCAL (GRATIS)
-*** Ejecución Iniciada. ***
-------------C A T A L O G O  ------------
-Bienvenido a nuestro catálogo de productos
-Código: 0
-Nombre del producto: Polera
-Precio del producto: $ 5000
-Peso del producto: 0.2 kg
-Código: 1
-Nombre del producto: Gorro
-Precio del producto: $ 3000
-Peso del producto: 0.3 kg
-Ingrese el código del producto que desea comprar (0 o 1):
-> 0
-Ingrese la cantidad de productos que desea comprar:
-> 300
-Nombre del producto: Polera
-Precio del producto: $ 5000
-En su carro tiene un monto total de 1500000
-En su carro tiene 60 kilos de productos
-Desea comprar otro producto? Indicar si o no
-> NO
-Usted tiene algún CUPON de descuento? (5% Adicional). Indicar si o no
-> NO
-Usted no tiene un descuento con CUPON
-Usted tiene un descuento adicional de un 3%
-Ingrese la zona de envío (0: norte, 1: centro, 2: sur, 3: local):
-> 3
-Zona de envío no válida.
------------- B O L E T A ------------
-Cantidad TOTAL de productos comprados: 300 unidades
-Producto1: 300 unidad(es), Precio: $1500000
-Monto total de los productos comprados: $1455000
-Descuento aplicado: 3%
-Monto total con IVA (19%): $1731450
-Costo de envío corresponde al monto de : $0
-Cargo adicional por peso: $0
-Nota: Los cargos adicionales solo aplican en compras sobre 10 kg de peso en el gasto de compra total
-Monto final a pagar: $1731450
-Total de kilos comprados en todos sus productos: 60 kg
-*** Ejecución Finalizada. ***
-
----------------------------------------------------------------------------------------------------------------------------
-EJEMPLO CON TODOS LOS DESCUENTOS APLICADOS, SE COMPRAN AMBOS PRODUCTOS, 200 UNIDADES POR CADA TIPO DE PRODUCTO
-
-*** Ejecución Iniciada. ***
-------------C A T A L O G O  ------------
-Bienvenido a nuestro catálogo de productos
-Código: 0
-Nombre del producto: Polera
-Precio del producto: $ 5000
-Peso del producto: 0.2 kg
-Código: 1
-Nombre del producto: Gorro
-Precio del producto: $ 3000
-Peso del producto: 0.3 kg
-Ingrese el código del producto que desea comprar (0 o 1):
-> si
-Ingrese el código del producto que desea comprar (0 o 1):
-> 1
-Ingrese la cantidad de productos que desea comprar:
-> 200
-Nombre del producto: Gorro
-Precio del producto: $ 3000
-En su carro tiene un monto total de 1600000
-En su carro tiene 100 kilos de productos
-Desea comprar otro producto? Indicar si o no
-> no
-Usted tiene algún CUPON de descuento? (5% Adicional). Indicar si o no
-> si
-Usted tiene un descuento adicional de un 5%
-Usted tiene un descuento adicional de un 3%
-Ingrese la zona de envío (0: norte, 1: centro, 2: sur, 3: local):
-> 0
------------- B O L E T A ------------
-Cantidad TOTAL de productos comprados: 400 unidades
-Producto1: 200 unidad(es), Precio: $1000000
-Producto2: 200 unidad(es), Precio: $600000
-Monto total de los productos comprados: $1472000
-Descuento aplicado: 8%
-Monto total con IVA (19%): $1751680
-Costo de envío corresponde al monto de : $205000
-Cargo adicional por peso: $20000
-Nota: Los cargos adicionales solo aplican en compras sobre 10 kg de peso en el gasto de compra total
-Monto final a pagar: $1976680
-Total de kilos comprados en todos sus productos: 100 kg
-*** Ejecución Finalizada. ***
-
-
---------------------------------------------------------------------------------------------------------------------
-EJEMPLO CON LA COMPRA DE UN SOLO PRODUCTO , CON ENVIO A LA ZONA CENTRO
-
-*** Ejecución Iniciada. ***
-------------C A T A L O G O  ------------
-Bienvenido a nuestro catálogo de productos
-Código: 0
-Nombre del producto: Polera
-Precio del producto: $ 5000
-Peso del producto: 0.2 kg
-Código: 1
-Nombre del producto: Gorro
-Precio del producto: $ 3000
-Peso del producto: 0.3 kg
-Ingrese el código del producto que desea comprar (0 o 1):
-> 0
-Ingrese la cantidad de productos que desea comprar:
-> 1
-Nombre del producto: Polera
-Precio del producto: $ 5000
-En su carro tiene un monto total de 5000
-En su carro tiene 0.2 kilos de productos
-Desea comprar otro producto? Indicar si o no
-> no
-Usted tiene algún CUPON de descuento? (5% Adicional). Indicar si o no
-> no
-Usted no tiene un descuento con CUPON
-Ingrese la zona de envío (0: norte, 1: centro, 2: sur, 3: local):
-> 1
------------- B O L E T A ------------
-Cantidad TOTAL de productos comprados: 1 unidades
-Producto1: 1 unidad(es), Precio: $5000
-Monto total de los productos comprados: $5000
-Descuento aplicado: 0%
-Monto total con IVA (19%): $5950
-Costo de envío corresponde al monto de : $5200
+**Ver el documento llamado ejemplo_salida.txt.**
+Se generan 3 ejemplos de entrada y salida:
+-EJEMPLO CON ENVIO LOCAL (GRATIS)
+-EJEMPLO CON TODOS LOS DESCUENTOS APLICADOS, SE COMPRAN AMBOS PRODUCTOS, 200 UNIDADES POR CADA TIPO DE PRODUCTO
+-EJEMPLO CON LA COMPRA DE UN SOLO PRODUCTO , CON ENVIO A LA ZONA CENTRO
 
 ## Requisitos del Algoritmo
 
